@@ -1,0 +1,12 @@
+Source: ros-galactic-rclpy-message-converter
+Section: misc
+Priority: optional
+Maintainer: Martin Günther <martin.guenther@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-galactic-ament-copyright <!nocheck>, ros-galactic-ament-flake8 <!nocheck>, ros-galactic-ament-pep257 <!nocheck>, ros-galactic-builtin-interfaces, ros-galactic-rclpy, ros-galactic-rclpy-message-converter-msgs <!nocheck>, ros-galactic-rosidl-default-generators, ros-galactic-std-msgs <!nocheck>, ros-galactic-std-srvs <!nocheck>, ros-galactic-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://ros.org/wiki/rospy_message_converter
+Standards-Version: 3.9.2
+
+Package: ros-galactic-rclpy-message-converter
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-numpy, ros-galactic-rclpy, ros-galactic-rosidl-parser, ros-galactic-rosidl-runtime-py, ros-galactic-ros-workspace
+Description: Converts between Python dictionaries and JSON to rclpy messages.
