@@ -1,0 +1,12 @@
+Source: ros-iron-rclpy-message-converter
+Section: misc
+Priority: optional
+Maintainer: Martin Günther <martin.guenther@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-iron-ament-copyright <!nocheck>, ros-iron-ament-flake8 <!nocheck>, ros-iron-ament-pep257 <!nocheck>, ros-iron-builtin-interfaces, ros-iron-geometry-msgs <!nocheck>, ros-iron-rclpy, ros-iron-rclpy-message-converter-msgs <!nocheck>, ros-iron-rosidl-default-generators, ros-iron-std-msgs <!nocheck>, ros-iron-std-srvs <!nocheck>, ros-iron-tf2-msgs <!nocheck>, ros-iron-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://ros.org/wiki/rospy_message_converter
+Standards-Version: 3.9.2
+
+Package: ros-iron-rclpy-message-converter
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-numpy, ros-iron-rclpy, ros-iron-rosidl-parser, ros-iron-rosidl-runtime-py, ros-iron-ros-workspace
+Description: Converts between Python dictionaries and JSON to rclpy messages.
