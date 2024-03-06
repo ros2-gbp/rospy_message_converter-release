@@ -1,0 +1,12 @@
+Source: ros-rolling-rclpy-message-converter
+Section: misc
+Priority: optional
+Maintainer: Martin Günther <martin.guenther@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), libgeometry-msgs-dev <!nocheck>, libstd-msgs-dev <!nocheck>, libstd-srvs-dev <!nocheck>, libtf2-msgs-dev <!nocheck>, python3-ament-copyright <!nocheck>, python3-ament-flake8 <!nocheck>, python3-ament-pep257 <!nocheck>, python3-geometry-msgs <!nocheck>, python3-pytest <!nocheck>, python3-std-msgs <!nocheck>, python3-std-srvs <!nocheck>, python3-tf2-msgs <!nocheck>, ros-geometry-msgs <!nocheck>, ros-rolling-builtin-interfaces, ros-rolling-rclpy, ros-rolling-rclpy-message-converter-msgs <!nocheck>, ros-rolling-rosidl-default-generators, ros-std-msgs <!nocheck>, ros-std-srvs <!nocheck>, ros-tf2-msgs <!nocheck>, ros-rolling-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://ros.org/wiki/rospy_message_converter
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rclpy-message-converter
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-numpy, python3-rosidl, ros-rolling-rclpy, ros-rolling-rosidl-runtime-py, ros-rolling-ros-workspace
+Description: Converts between Python dictionaries and JSON to rclpy messages.
