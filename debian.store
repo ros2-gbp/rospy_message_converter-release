@@ -1,1 +1,1 @@
-{"base": "156cb82", "parent": "debian/rolling/rclpy_message_converter", "previous": "f017229", "trim": "", "trimbase": ""}
+{"base": "bf94aff", "parent": "debian/jazzy/rclpy_message_converter", "previous": "e59cd67", "trim": "", "trimbase": ""}
