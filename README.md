@@ -1,3 +1,28 @@
+## rospy_message_converter (iron) - 2.0.2-1
+
+The packages in the `rospy_message_converter` repository were released into the `iron` distro by running `/usr/bin/bloom-release -y rospy_message_converter --rosdistro iron` on `Fri, 26 Apr 2024 17:25:20 -0000`
+
+These packages were released:
+- `rclpy_message_converter`
+- `rclpy_message_converter_msgs`
+
+Version of package(s) in repository `rospy_message_converter`:
+
+- upstream repository: https://github.com/uos/rospy_message_converter.git
+- release repository: https://github.com/ros2-gbp/rospy_message_converter-release.git
+- rosdistro version: `2.0.1-3`
+- old version: `2.0.1-3`
+- new version: `2.0.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.23.0`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## rospy_message_converter (humble) - 2.0.2-1
 
 The packages in the `rospy_message_converter` repository were released into the `humble` distro by running `/usr/bin/bloom-release -y rospy_message_converter --rosdistro humble` on `Fri, 26 Apr 2024 17:22:48 -0000`
